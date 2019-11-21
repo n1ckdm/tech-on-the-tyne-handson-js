@@ -1,0 +1,15 @@
+query Takeaway ($id: ID!) {  
+  takeaway(id: $id) {
+    id
+    name
+    menuitems {
+      id
+      name
+      description
+      price
+      image {
+        url
+      }
+    }
+  }
+}

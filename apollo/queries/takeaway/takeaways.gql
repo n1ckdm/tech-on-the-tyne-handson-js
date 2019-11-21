@@ -1,0 +1,11 @@
+query Takeaways {  
+    takeaways {
+        id
+        name
+        description
+        delivery_time
+        image {
+            url
+        }
+    }
+}
